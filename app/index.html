@@ -291,8 +291,8 @@ occhi: devo ringraziare l'amica che me l'ha consigliata"</p>
 					</div>
 					<div class="col-12">
 						<div class="form-group">
-							<button type="" class="submit order-button" id="submit" placeholder="">invia ordine</dutton>
-							</div>
+							<button type="" class="submit order-button" id="submit" placeholder="">invia ordine</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -304,35 +304,6 @@ occhi: devo ringraziare l'amica che me l'ha consigliata"</p>
 	</footer>
 
 	<script src="js/scripts.min.js"></script>
-	<script src="http://cdn.leadrock.com/js/validation.js"></script>
-	<script src="http://leadrock.com/integration.js"></script>
-	<script>
-	$(document).ready(function() {
-		validate();
-		(function() {
-			Leadrock.init({
-				formSelectors: {
-					formsClassName: 'lead_form',
-					name: '.name',
-					phone: '.phone',
-					email: '.email',
-					price: '.price',
-					other: '.other-simple-data'
-				},
-				goal: 'Lead',
-				urlConfig: {
-					thankYouPage: 'confirm.html'
-				},
-				trackCallback: function(clickId) {
-					var filia_url = "http://l8172.offerteonline2017.com/affiliateproject/tracker/click/?pub_id=59d61acb6e37b&land_id=1934";
-					var iframe = document.createElement('iframe');
-					iframe.src = filia_url + '&subid2=' + clickId + '&subid1=' + Leadrock.wms_id;
-					iframe.style.display = 'none';
-					document.body.appendChild(iframe);
-				}
-			});
-		})(Leadrock);
-	});
-	</script>
+
 </body>
 </html>
